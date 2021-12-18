@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+video{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.overlay{
+    background-color: lightslategray;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+
+}
+.gesa{
+    position: relative;
+    z-index: 10;
+    color: #111;
+    margin-left: 25px;
+    color: rgba(192, 192, 192, 0.712);
+    text-transform: uppercase;
+    padding: 5px 25px;
+    
+}
+
+.gesa:hover{
+    transition: 0.2s ease;
+    padding: 5px 30px;
+}
+nav{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-transform: uppercase;
+    float: right;
+   
+}
+li{
+    float: left;
+    margin-left: 0;
+    margin-left: 50px;
+}
+li a{
+    display: inline-block;
+    background: transparent;
+    color: dimgray;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+li a:hover{
+    background-color: white;
+    transition: 0.2s ease;
+    padding: 10px 30px;
+}
+.eldi{
+    z-index: 10;
+    position: relative;
+}
+.eldi{
+    font-size: 55px;
+    margin: 0;
+    margin-top: 150px;
+    padding: 0;
+    margin-left: 50px;
+    color: #fff;
+    
+}
+.seach-box{
+    position: relative;
+    z-index: 10;
+    background-color: #fff;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    margin-left: 50px;
+}
+.seach-box input {
+    background: transparent;
+    width: 600px;
+    border: 0;
+    outline: none;
+   
+}
+.seach-box button {
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    
+}
