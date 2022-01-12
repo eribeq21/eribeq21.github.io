@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.overlay{
+    background-color: skyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+}
+.container{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.lupri{
+    color: #fff;
+    margin-left: 20px;
+    
+}
+ul{
+    list-style-type: none;
+    float: right;
+    padding: 25px;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    padding: 20px;
+    font-size: 18px;
+}
+li a:hover{
+    background-color: wheat;
+    padding: 10px 30px;
+    transition: 0.2s ease;
+}
+.title{
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 50px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.search-box{
+    position: relative;
+    z-index: 10;
+    margin-left: 50px;
+}
+.explore{
+    position: relative;
+    z-index: 10;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.explore a:hover {
+    background-color: wheat;
+    padding: 10px 30px;
+    transition: 0.2s ease;
+}

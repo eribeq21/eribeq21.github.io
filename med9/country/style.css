@@ -1,0 +1,36 @@
+body {
+	background-color: lightgreen;
+}
+h1 {
+	text-align: center;
+	color: red;
+	background-color: white;
+	padding: 20px;
+}
+div {
+	height: 50px;
+	width: 300px;
+}
+.red {
+	background-color: red;
+}
+.white {
+	background-color: white;
+}
+.green {
+	background-color: darkgreen; 
+}
+.main {
+	width: 300px;
+	float: left;
+	margin: 50px;
+	border: 10px double red;
+	border-radius: 20px;
+}
+hr {
+	margin: 50px;
+}
+a {
+	float: left;
+	text-decoration: none;
+}

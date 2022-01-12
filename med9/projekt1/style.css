@@ -1,0 +1,58 @@
+body {
+	background-color: blueviolet;
+}
+.ergiti {
+	color: white;
+	text-align: center;
+	background-color: black;
+	font-size: 50px;
+	font-family: sans-serif;
+}
+.main {
+	width: 300px;
+	border: 10px double darkred;
+	border-radius: 20px;
+	float: left;
+	height: 300px;
+	margin: 100px;
+}
+p {
+	margin: 30px;
+	font-size: 20px;
+	color: white;
+}
+h2{
+	margin: 20px;
+}
+li {
+	font-size: 20px;
+}
+.kozak {
+	margin: 20px;
+}
+.banner {
+	clear: both;
+}
+.kelvin {
+	width: 300px;
+	border: 10px double darkred;
+	border-radius: 20px;
+	float: left;
+	margin: 100px;
+
+}
+a.kozak {
+	font-size: 18px;
+	
+	border: 1px solid white;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.kozak:hover {
+	background-color: black;
+	transition: 0.8s ease;
+}
