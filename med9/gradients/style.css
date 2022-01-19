@@ -1,0 +1,34 @@
+*{
+    background-color:dimgray;
+}
+h1{
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    font-family: cursive;
+    padding: 45px;
+}
+h2{
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(76,208,109,1) 24%, rgba(227,92,113,1) 57%, rgba(187,152,97,1) 73%, rgba(119,252,70,1) 100%);
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    font-family: cursive;
+    padding: 45px;
+}
+h3{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(76,208,109,1) 24%, rgba(119,252,70,1) 100%);
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    font-family: cursive;
+    padding: 45px;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    font-family: monospace;
+    
+}
