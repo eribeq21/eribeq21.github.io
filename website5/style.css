@@ -63,7 +63,7 @@ li a:hover{
 }
 .overlay{
     position: absolute;
-    background: rgb(21, 31, 63);
+    background: white;
     z-index: 1;
     top:0;
     left: 0;
