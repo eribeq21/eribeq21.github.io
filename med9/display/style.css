@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body{
+    background: linear-gradient(90deg, rgba(63,251,239,1) 27%, rgba(73,70,252,1) 100%);
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+}
+li{
+    float: left;
+}
+ a{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: indigo;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Anonymous Pro';
+    margin: 10px;
+    border-radius: 2px;
+}
+a:hover{
+    padding: 10px 30px;
+    transition: 0.2s ease;
+
+}
+.es{
+    text-align: center;
+    color: dimgray;
+    font-size: 65px;
+    font-family: 'Merriweather';
+    text-shadow: white 5px 3px 4px;
+}
+h3{
+    font-size: 35px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: dimgray 3px 4px 5px;
+}
+.foto1{
+    width: 400px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border: 20px double white ;
+   
+
+}
+.jungle{
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 1400px;
+    margin-right: 40px;
+    
+}
+.foto2{
+    width: 400px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border: 20px double white ;
+}
+.green{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p2{
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 1400px;
+    margin-right: 40px;
+}
