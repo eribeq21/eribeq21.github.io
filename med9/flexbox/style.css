@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+body{
+    background: linear-gradient(90deg, rgba(63,251,239,1) 27%, rgba(73,70,252,1) 100%);
+}
+.first{
+    background-color: darkcyan;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 100px;
+    font-family: 'Lato';
+}
+p{
+    background-color: darkred;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Syne Tactile';
+
+
+}
+.second{
+    background-color: lightgreen;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+img{
+    width: 250px;
+    height: auto;
+}
+.third{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: hotpink ;
+    margin: 20px;
+}
+.fourth{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 400px;
+    background-color: mediumorchid;
+    margin: 20px;
+}
