@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+body{
+    background: linear-gradient(90deg, rgba(131,200,199,1) 9%, rgba(51,106,139,1) 67%);
+    margin: 0;
+}
+nav{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+   
+}
+img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
+nav ul li a:hover{
+    background-color: turquoise;
+    transition: 0.1s ease;
+    padding: 10px 30px;
+}
