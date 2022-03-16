@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+
+/*
+*
+* Title: Basic Structure of a page
+* Author: Eriseldi Beqiri
+* Date: 2022-03-16
+*/
+
+/********General Styling*********/
+body{
+    background: white;
+    margin: 0;
+}
+/* Navigation */
+nav{
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+   
+}
+nav img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none; /* To remove the bullet points  */
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 10px 25px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+
+}
+nav ul li a:hover{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    transition: 0.2s ease;
+}
+header{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('sa.jpg');
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    color: black;
+    font-family: 'Roboto';
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background: cornflowerblue;
+}
+footer p {
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    font-family: 'Roboto';
+    padding: 10px;
+    border-radius: 5px;
+}
+main{
+    padding: 50px;
+    background: white;
+    border: 7px solid darkblue;
+}
+main h2{
+    color: black;
+    font-weight: bold;
+}
+main h2:hover {
+    text-decoration: underline;
+}
+main h3{
+    color: black;
+    font-weight: bold;
+}
+main p{
+    font-size: 18px;
+    font-family: 'Roboto';
+}
