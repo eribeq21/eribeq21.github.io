@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+/************************General Styling*****************/
+:root{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: cornflowerblue;
+}
+nav{
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+   
+}
+nav img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none; /* To remove the bullet points  */
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    padding: 10px 25px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-right: 30px;
+
+}
+nav ul li a:hover{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    transition: 0.2s ease;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-image: url('palm1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+h1{
+    font-family: 'Rubik Wet Paint';
+    font-size: 70px;
+    margin: 0px;
+}
+section{
+    padding: 100px;
+}
+#link1{
+    background-color: darkcyan;
+    font-family: 'Rubik Wet Paint';
+}
+#link2{
+    background-color: darkblue;
+    font-family: 'Rubik Wet Paint';
+}
+#link3{
+    background-color: blueviolet;
+    font-family: 'Rubik Wet Paint';
+}
+
