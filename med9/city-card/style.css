@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+article{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+article .left{
+    height: 180px;
+    width: 320px;
+    background-image: url('roma.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+   
+}
+article .right{
+    position: relative;
+    height: 180px;
+    width: 320px;
+    background:  linear-gradient(270deg, rgba(27,116,131,1) 21%, rgba(22,130,152,1) 35%, rgba(12,156,192,1) 47%, rgba(6,175,219,1) 57%, rgba(1,188,239,1) 75%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+}
+article p{
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Roboto';
+    z-index: 20;
+
+}
+
+
+article h1{
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    color: blue;
+    background-color: white;
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Roboto';
+}
