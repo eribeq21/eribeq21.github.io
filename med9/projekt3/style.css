@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&display=swap');/*******************************"IBM Plex Sans Thai Looped"**************************************/
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');/***************Syne Tactile****************************/
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');/* Goldman */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');/*Roboto*/
+*{
+    
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+  
+}
+#home{
+    background: linear-gradient(90deg, rgba(6,38,56,1) 14%, rgba(5,0,73,1) 59%, rgba(66,0,73,1) 97%);
+}
+ li, a , button{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+ header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    padding-left: 10px;
+    padding: 0 20px;
+    margin-top: 25px;
+}
+.seldi{
+    list-style-type: none;
+
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+ .seldi a{
+    position: relative;
+    color: white;
+    height: 3px;
+    width: 100%;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+
+}
+.seldi a:after{
+    content: "";
+    position: absolute;
+    background-color: pink;
+    height: 3px;
+    width: 0%;
+    left: 0%;
+    bottom: -10px;
+    transition: 0.2s ease;
+    color: #fff;
+
+}
+.seldi a:hover:after {
+    
+    width: 100%;
+    color:white;
+    transition: 0.2s ease-in;
+    color: #fff;
+}
+.btn2{
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+.btn2:hover{
+    background-color: rgba(0, 136, 169, 0.5) ;
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    
+}
+.eldi{
+    margin-right: auto;
+    color: ghostwhite;
+    font-family: 'Syne Tactile';
+}
+.ini{
+    border: 1px solid  dimgray;
+    padding-right: 40px;
+    padding-top: 3.5px;
+    padding-left: 10px;
+    padding-bottom: 3.5px;
+    border-radius: 5px;
+
+}
+ .tibo h2{
+    font-family: "Goldman";
+    font-size: 60px;
+    margin-top: 60px;
+    margin-left: 50px;
+    text-shadow: 10px 30px 100px;
+    text-transform: uppercase;/*******All the letter now are uppercase*****/
+    color: white;
+   
+    
+
+}
+.tibo p{
+    width: 500px;
+    color: black;
+    font-size: 18px;
+    margin-left: 50px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+
+}
+.ino{
+    border: 1px solid  dimgray;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+   
+}
+ .btn{
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: lightgreen;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+}
+ .btn:hover{
+    background-color: darkgreen ;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first img{
+    width: 420px;
+    border-radius: 50%;
+    padding-top: 60px;
+    border: 0px;
+    padding-right: 70px;
+    
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 15px;
+}
+footer p {
+    color: black;
+    font-family:"IBM Plex Sans Thai Looped";
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+
+
+/*******************Index web Style******************/
+
+
+#index header{
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+#index{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+  
+}
+#index .title2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('foto9.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+#index .title2 h1{
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-family: 'Goldman';
+    border-radius: 4px;
+    border: 2px double  blueviolet;
+}
+.title h1{
+    color: black;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Goldman';
+    padding: 30px;
+    background-color: lightslategray;
+}
+.number3{
+    background: white ;
+    margin-top: 0px;
+    padding: 0px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  
+
+
+}
+.number3 p {
+    position: relative;
+    left: -10px;
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Roboto';
+    margin-top: 30px;
+    width: 50%;
+    font-weight: bold;
+    
+}
+.number3 img{
+    width: 400px;
+}
+.box .number3{
+    background-color: lightgray;
+}
+
+
+/************** Products Web Style*************/
+#products header{
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+
+#products{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightslategray;
+}
+
+
+ #products div img{
+	width: 250px;
+	margin: 20px;
+
+
+}
+
+ #products div p{
+
+	display: flex;
+	align-items: center;
+
+	
+}
+.card {
+
+  box-shadow: 5px 10px 3px;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+
+}
+.card p {
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.price {
+  display: flex;
+  color: grey;
+  font-size: 22px;
+  justify-content: center;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin: 0px;
+
+  
+
+}
+.card button:hover {
+  opacity: 0.7;  /******This is to light up a bit the color*****/
+}
+#products div li{
+	display: flex;
+	align-items: center;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.he{
+	display: flex;
+	justify-content: space-between;
+   
+}
+.hel{
+	display: flex;
+	justify-content: space-between;
+}
+#products img{
+    box-shadow: 2px 8px 10px;
+}
+
+/**********************About Web Style*****************/
+
+#about header{
+    background-color: darkslategray;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+
+#about{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightslategray;
+}
+
+#about main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about main p{
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    margin: 40px;
+}
+#about img{
+    width: 400px;
+    box-shadow: 5px 2px 8px white; /***************This can make the image with a shadow beside***********/
+    margin: 40px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.cont h1{
+    font-size: 35px;
+    font-family: 'Roboto';
+    padding: 10px;
+    text-shadow: 2px 5px 4px;
+}
+.cont h2{
+    font-size: 35px;
+    font-family: 'Roboto';
+    padding: 10px;
+}
