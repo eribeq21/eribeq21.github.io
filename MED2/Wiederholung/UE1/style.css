@@ -1,0 +1,37 @@
+body{
+	background-color: dimgray;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+	color: whitesmoke;
+
+}
+
+
+#fig1{
+	width: 500px;
+	height: 400px;
+	padding: 5px;
+	border: 3px dotted black;
+	margin: 10px;
+}
+#fig2{
+	width: 500px;
+	height: 400px;
+	padding: 5px;
+	border: 3px dotted black;
+	margin: 10px;
+}
+
+
+.main{
+	font-size: 18px;
+
+}
+.ft{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}

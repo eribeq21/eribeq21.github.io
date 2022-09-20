@@ -1,0 +1,33 @@
+body{
+	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	background-color: seagreen ;
+	width: 170px;
+	height: 200px;
+	padding: 10px;
+}
+p{
+	
+	background-color: lightyellow;
+	padding: 10px;
+	}
+h2{
+	background-color: darkred;
+	height: 400px;
+	width: 80px;
+}
+.main{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 30px;
+
+}
+img{
+	width: 190px;
+	height: 220px;
+	margin: 40px;
+}
