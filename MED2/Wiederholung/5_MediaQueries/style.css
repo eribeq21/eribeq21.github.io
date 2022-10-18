@@ -1,0 +1,18 @@
+/*Reihenfolge:
+Zuerst das Design fur kleine gerate, dann fur groBe Gerate*/
+
+/*Design  fur den Desktop*/
+/*Trennline zw. smartphones/Tablets und Desktop: 768px*/
+@media(min-width: 768px) {
+    h1{
+        background-color: red;
+        font-size: 50px;
+    }
+  }
+
+/*Design  fur das Handy*/
+@media(max-width: 600px) {
+    h1 {
+      background-color: lightblue;
+    }
+  }
